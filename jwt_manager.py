@@ -1,4 +1,4 @@
-from jwt import encode, decode 
+from jwt import decode, encode
 pwd = '1234567890'
 
 def create_token(data, secret=pwd):
