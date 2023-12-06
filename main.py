@@ -11,7 +11,7 @@ from routers.auth import auth_router
 
 app = FastAPI()
 
-app.title = "Mi primer aplicacion de Peliculas"
+app.title = "Mi primer aplicacion de Peliculas con FastAPI"
 app.version = "1.0.0"
 
 app.add_middleware(ErrorHandler)
